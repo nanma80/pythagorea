@@ -12,8 +12,8 @@ class Grid(object):
   
   def nodes_90(self):
     nodes = []
-    for x in xrange(0, 6):
-      for y in xrange(0, 6):
+    for x in xrange(0, 7):
+      for y in xrange(0, 7):
         nodes.append(Node((x, y)))
     return nodes
 
